@@ -20,10 +20,8 @@ public class University {
 enum   StudyProfile {
     dispatcher("диспетчер"),
     constructor("конструктор"),
-    engineer("инженер"),
-    mechanic("механик"),
-    technician("техник"),
-    autoexpert("автоэксперт");
+    engineer("инженер");
+
     private String transcripts;
     StudyProfile(String transcripts){
         this.transcripts = transcripts;
